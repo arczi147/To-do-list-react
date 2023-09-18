@@ -4,7 +4,7 @@
 
 ## Demo
 
-https://arczi147.github.io/To-do-list/
+https://arczi147.github.io/to-do-list-react/
 
 ## What does the website enable?
 

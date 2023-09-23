@@ -18,6 +18,8 @@ The website allows you to create a to-do list. You can add new tasks, mark alrea
 - Grid
 - Media queries
 - React
+- Node
+- Buble
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -1,19 +1,19 @@
-import { Subsection, Button } from "./styled"
+import { StyledButtons, Button } from "./styled"
 
 const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
     tasks.length > 0 && (
-        <Subsection>
-            <Button onClick={toggleHideDone}
-            hideDone>
+        <StyledButtons>
+            <Button 
+            onClick={toggleHideDone}
+            >
                 {hideDone ? "Pokaż" : "Ukryj"} ukończone
             </Button>
             <Button
                 onClick={setAllDone}
-                done
                 disabled={tasks.every(({ done }) => done)}
             >
                 Ukończ wszystkie</Button>
-        </Subsection>
+        </StyledButtons>
     )
 );
 

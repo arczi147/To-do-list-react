@@ -20,6 +20,7 @@ The website allows you to create a to-do list. You can add new tasks, mark alrea
 - React
 - Node
 - Buble
+- Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

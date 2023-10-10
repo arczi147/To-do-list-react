@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const StyledButtons = styled.div`
     align-items: center;
@@ -18,16 +18,12 @@ export const Button = styled.button`
     padding: 10px;
     transition: 0.5s;
 
-    ${({ hideDone }) => hideDone && css`
-        &:hover {
-            color: ${({ theme }) => theme.color.brighterPersianGreen};
-        }
-    `}
+    &:hover {
+        color: ${({ theme }) => theme.color.brighterPersianGreen};
+    }
 
-    ${({ done }) => done && css`
-        &:disabled {
-            color: ${({ theme }) => theme.color.silver};
-            transition: none;
-        }
-    `};
+    &:disabled {
+        color: ${({ theme }) => theme.color.silver};
+        transition: none;
+    }
 `;

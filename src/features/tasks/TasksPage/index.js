@@ -1,10 +1,11 @@
 import Form from "../TasksPage/Form";
 import TaskList from "../TasksPage/TaskList";
-import Buttons from "../TasksPage/Buttons";
+import Buttons from "./ButtonsHide&SetAll";
 import Section from "../../../common/Section";
 import Header from "../../../common/Header";
 import Container from "../../../common/Container";
 import Search from "./Search";
+import ButtonGettingExampleTasks from "./ButtonGettingExampleTasks";
 
 function TasksPage() {
 
@@ -14,6 +15,7 @@ function TasksPage() {
       <Section
         title="Dodaj nowe zadanie"
         body={<Form />}
+        extraHeaderContent={<ButtonGettingExampleTasks />}
       />
 
       <Section

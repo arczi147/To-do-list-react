@@ -13,9 +13,9 @@ export default () => (
                     <p>
                         Moim głównym zainteresowaniem jest <strong>muzyka</strong> 🎶. Kocham rozkoszować się dźwiękami,
                         współbrzmieniami, a od 3. klasy podstawówki <strong>śpiewam</strong> nieustannie w różnych chórach, projektach, kwartetach 😁.
-                        <strong> Taniec też zawsze był moim konikiem</strong>. Zdarzyło mi się tańczyć w dzieciństwie przez 6 lat w pewnej formacji
-                        tanecznej, gdzie można było się zapoznać z różnymi stylami 🕺. Dodatkowo uczyłem się gry na <strong>keyboardzie, pianinie 🎹
-                            oraz gitarze 🎸</strong>.
+                        <strong> Taniec też zawsze był moim konikiem</strong>. Zdarzyło mi się tańczyć w&nbsp;dzieciństwie przez 6 lat w pewnej formacji
+                        tanecznej, gdzie można było się zapoznać z&nbsp;różnymi stylami 🕺. Dodatkowo uczyłem się gry na <strong>keyboardzie, pianinie 🎹
+                        oraz gitarze 🎸</strong>.
                     </p>
                     <p>
                         Poza muzyką uwielbiam <strong>podróżować</strong>, spotykać się ze znajomymi na planszówki, jeździć na rolkach, a

@@ -4,6 +4,7 @@ export const StyledSection = styled.section`
     margin: 10px 0;
     background-color: ${({ theme }) => theme.color.white};
     box-shadow: 0px 0px 10px 0px ${({ theme }) => theme.color.silverChalice};
+    text-align: justify;
 `;
 
 export const Header = styled.div`
